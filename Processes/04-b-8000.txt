@@ -1,5 +1,4 @@
-#!/bin/bash
-
 ps -eo pid,tty,comm | awk '{if($2 == "?") print $1,$3}' | sort -n -k1
-# Vtora chast na zadachata
+
+# Second part from the task:
 ps -eo tty,comm | awk '{if($1 == "?") print $2}' | sort | uniq
