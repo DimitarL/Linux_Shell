@@ -1,4 +1,5 @@
+# Version 1
 find /etc -type f -printf "%s %p \n" 2> /dev/null | sort -n -t' ' -k 1 | tail -n 1 | cut -d' ' -f 2 | xargs -I{} cp {} ~
 
+# Version 2
 find /etc -type f 2>/dev/null | xargs -I{} du {} | sort -rn -k1 | head -n1 | cut -d'/' -f2- | xargs -I{} cp /{} ~
-
