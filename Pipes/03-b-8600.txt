@@ -1,2 +1,1 @@
 find / -name '*.sh' 2> /dev/null | xargs -I {} cat {} 2> /dev/null | egrep "^#!" | tr -s ' ' | tr -d ' ' | sort | uniq -c | tr -s ' ' | cut -d' ' -f 2- | sort -r -n -k 1
-
