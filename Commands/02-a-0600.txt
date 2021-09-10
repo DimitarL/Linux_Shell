@@ -2,4 +2,3 @@ mkdir -p /tmp/os_62134/practice/01/
 touch /tmp/os_62134/practice/01/f{1,2,3}
 mkdir -p ~/dir1
 cp /tmp/os_62134/practice/01/f{1,2,3} ~/dir1
-
