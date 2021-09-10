@@ -1,0 +1,1 @@
+cp /srv/os/population.csv ~

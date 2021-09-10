@@ -1,0 +1,2 @@
+find /tmp -type f -newer /tmp/os_62134/practice/01/f1 2>/dev/null
+

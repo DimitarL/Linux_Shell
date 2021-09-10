@@ -1,0 +1,4 @@
+cat /etc/group | cut -d ':' -f 1 | awk -v var=$(id -gn) '{ if($1 == var){ print "Hello, " $1 " - this is me!"} else print "Hello, " $1}'
+
+sed 's/^/Hello, /' /etc/group | ser -r "s/($(id -gn))/\1 - this is me\!/" | cut -d ':' -f 1
+

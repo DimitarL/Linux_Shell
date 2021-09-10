@@ -1,0 +1,2 @@
+cat -n /etc/passwd | head -n 45 | tail -n 19 | cut -d ':' -f3 | rev | cut -c 1
+

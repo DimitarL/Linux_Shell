@@ -1,0 +1,2 @@
+sed 's/1//g' ~/dir5/file3
+cat ~/dir5/file3 | tr -d '1'

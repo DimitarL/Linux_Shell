@@ -1,0 +1,15 @@
+# cat \
+#     <(ps -eo euser | tail -n +2 | sort | uniq) \
+#     <(cat /etc/passwd | cut -d':' -f1 | sort | uniq \
+#       | egrep -v "^($(who | awk '{print $1}' | sort | uniq | tr '\n' '|'))$") \
+#   | sort | uniq -c | awk '$1 != 1 { print $2 }'
+
+comm -1 -2 \
+    <(ps -eo euser | tail -n +2 | sort | uniq) \
+    <(comm -1 -3 \
+        <(who | awk '{print $1}' | sort | uniq) \
+        <(cat /etc/passwd | cut -d':' -f1 | sort | uniq) )
+
+# Moje da se izpolzva:
+# cat with_live_processes | xargs -I @ grep "^@$" not_logged_in
+

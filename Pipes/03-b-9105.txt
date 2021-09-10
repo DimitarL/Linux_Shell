@@ -1,0 +1,4 @@
+find *.ogg | egrep "^Beatles|Pink"
+  
+find *.ogg | egrep "^Beatles|Pink" | wc -l
+

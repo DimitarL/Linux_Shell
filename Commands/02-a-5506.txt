@@ -1,0 +1,2 @@
+find ~ -type f -newer /tmp/os_62134/practice/01/testing 2>/dev/null | xargs -I{} rm -i {}
+

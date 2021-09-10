@@ -1,0 +1,2 @@
+find /bin -type f -perm -o=rwx
+

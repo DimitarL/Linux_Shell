@@ -1,0 +1,2 @@
+find . -type f -perm $(find /etc -type f 2> /dev/null | xargs -I{} stat -c "%s %a" {} | sort -rn | head -n1 | cut -d' ' -f2) 2> /dev/null | xargs ls -l
+

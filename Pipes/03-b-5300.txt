@@ -1,0 +1,2 @@
+cat /etc/passwd | cut -d ':' -f 5 | grep -o '.' | sort | uniq -c | egrep ' 1 ' | wc -l
+

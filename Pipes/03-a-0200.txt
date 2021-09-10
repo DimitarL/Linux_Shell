@@ -1,0 +1,2 @@
+sort -d -t':' -k3 /etc/passwd
+

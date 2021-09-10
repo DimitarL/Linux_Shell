@@ -1,0 +1,2 @@
+ps -eo pid | tail -n +2 | xargs -I @ bash -c 'echo @ "$(ps -eoppid,pid | awk -vpid=@ "\$1 == pid" | wc -l) $(ps -eo ppid,pid | awk -v pid="$(ps -eo ppid,pid | awk -vpid=@ "\$2 == pid {print \$1}")" "\$1 == pid" | wc -l)"' | awk '$2 > $3 { print $1 }'
+

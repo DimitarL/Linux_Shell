@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ps -G root -o rss | tail -n +2 | awk '{sum+=$1} END {print sum}'
+

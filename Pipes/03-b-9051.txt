@@ -1,0 +1,4 @@
+egrep -o --color ",[0-9]*,[0-9]*$" population.csv | cut -c 2- | egrep "^2008" | awk -F',' '{ sum += $2 } END { print sum }'
+
+cat population.csv | rev | cut -d',' -f1,2 | rev | cut ...
+

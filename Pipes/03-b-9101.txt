@@ -1,0 +1,6 @@
+mkdir songs
+mv songs.tar.gz songs
+cd songs
+tar -xavf songs.tar.gz
+rm songs.tar.gz
+

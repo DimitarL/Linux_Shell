@@ -1,0 +1,2 @@
+cat /etc/passwd | tr -d 'a' | wc -m
+

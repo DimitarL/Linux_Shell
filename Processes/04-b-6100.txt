@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ps -eo user,cmd | awk '{if($2 ~ /^vim/) print $1}' | sort | uniq -c | awk '{if($1 > 1) print $2}'
+

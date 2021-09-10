@@ -1,0 +1,5 @@
+find /etc -type f ! -perm /u=x,g=x,o=x | wc -l
+
+// only regular files without binary files
+// /.... means match any
+! means opposite

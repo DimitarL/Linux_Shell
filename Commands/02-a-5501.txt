@@ -1,0 +1,2 @@
+find ~ -type f ! -perm /u=x,g=x,o=x -size +42c
+

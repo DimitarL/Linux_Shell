@@ -1,0 +1,2 @@
+egrep --color '[[:alpha:]]+ [[:alpha:]]{,7}:' /etc/passwd
+

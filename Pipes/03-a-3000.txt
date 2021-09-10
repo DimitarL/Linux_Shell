@@ -1,0 +1,6 @@
+ls -l ~ > ls_Output.txt
+sort -n -k2 ls_Output.txt > ls_Output.txt
+sort -d -k2 ls_Output.txt > ls_Output.txt
+
+ls -l ~ | sort -n -k2 > ls_Output.txt
+

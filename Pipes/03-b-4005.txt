@@ -1,0 +1,2 @@
+cat ~/dir5/file1 | tr A-Z a-z > file2
+

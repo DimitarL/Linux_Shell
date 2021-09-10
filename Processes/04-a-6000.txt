@@ -1,0 +1,1 @@
+ps -eo vsz,pid,cmd | tail -n +2 | sort -rn -k1 | head -n1 | tr -s ' ' | cut -d' ' -f2-

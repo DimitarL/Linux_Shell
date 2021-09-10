@@ -1,0 +1,4 @@
+find ~ -type f -printf "%T@ %p \n" 2> /dev/null | sort -rn -k 1 | head
+
+най-скоро достъпени;
+"%A@ %p \n"

@@ -1,0 +1,4 @@
+awk -F':' '{print $1 " " $5}' /etc/passwd
+
+
+$5 e prazna kolona, losh primer

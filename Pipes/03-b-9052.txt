@@ -1,0 +1,1 @@
+egrep "^Bulgaria" population.csv | sort -t',' -rn -k4 | head -n1 | cut -d',' -f3

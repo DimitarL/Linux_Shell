@@ -1,0 +1,5 @@
+cat ~/dir5/file2 | tr a-z A-Z > /tmp/file5
+cat /tmp/file5 > ~/dir5/file2
+
+sed -i -r 's/(.*)/\U\1/g' file2
+
