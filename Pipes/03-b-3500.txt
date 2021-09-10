@@ -1,4 +1,4 @@
 file /bin/* | tr A-Z a-z | grep 'shell script' | wc -l
 
+Solution 2: 
 file /bin/* | tr A-Z a-z | grep 'ascii' | wc -l
-
