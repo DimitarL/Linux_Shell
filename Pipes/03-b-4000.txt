@@ -7,9 +7,8 @@ vi ~/dir5/file3
 wc ~/dir5/file1
 wc ~/dir5/file2
 wc ~/dir5/file3
-wc ~/dir5/*			//za 3te faila izvedeno zaedno
+wc ~/dir5/*			// For the 3 files output together
 
 wc -ml ~/dir5/file*
 
 cat ~/dir5/* | wc -l
-
