@@ -25,23 +25,20 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#include <stdio.h>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int main(int argc, char *argv[]) {
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  if (argc == 1) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		printf("There is only 1 argument");
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	} else {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		printf("There are more than 1 arguments");
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	}
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	return 0;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int main(int argc, char *argv[]) {  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  if (argc == 1) {  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		printf("There is only 1 argument");  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	} else {  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		printf("There are more than 1 arguments");  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	}  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	return 0;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Тук влагането е 2, понеже имаме main блок, а вътре в него if блок.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Примерно извикване на скрипта:
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Примерно извикване на скрипта:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./count_nesting sum_c_code.c
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изход:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изход:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The deepest nesting is 2 levels
 * 05-b-4300  
 
