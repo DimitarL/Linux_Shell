@@ -1,4 +1,4 @@
 find ~ -type f -mmin -60
 
--60 za po-malko ot 60min
-+60 za poveche
+# -60 za po-malko ot 60min
+# +60 za poveche
