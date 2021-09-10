@@ -52,31 +52,31 @@ dir5/file2
 dir5/file3
 
 Посредством vi въведете следното съдържание:  
-file1:  
-1  
-2  
-3  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file1:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3  
 
-file2:  
-s  
-a  
-d  
-f
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file2:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f
 
-file3:  
-3  
-2  
-1  
-45  
-42  
-14  
-1  
-52
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file3:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;42  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;52
 
-Изведете на екрана:
-   * статистика за броя редове, думи и символи за всеки един файл
-   * статистика за броя редове и символи за всички файлове
-   * общия брой редове на трите файла
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете на екрана:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   * статистика за броя редове, думи и символи за всеки един файл
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   * статистика за броя редове и символи за всички файлове
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   * общия брой редове на трите файла
 * 03-b-4001  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Във file2 (inplace) подменете всички малки букви с главни.
 * 03-b-4002  
