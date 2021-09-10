@@ -1,4 +1,3 @@
 ls -d /home/*
 ls /home
 find /home -type d
-
