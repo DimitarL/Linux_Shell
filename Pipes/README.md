@@ -26,25 +26,30 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Запаметете във файл в своята home директория резултатът от командата `df -P`.
 Напишете команда, която извежда на екрана съдържанието на този файл, без първия ред (хедъра), сортирано по второ поле (numeric).
 * 03-a-5000  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете реда от /etc/passwd, на който има информация за вашия потребител.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведедете този ред и двата реда преди него.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете този ред, двата преди него, и трите след него.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете *само* реда, който се намира 2 реда преди реда, съдържащ информация за вашия потребител.
 * 03-a-5001  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете колко потребители не изпозват /bin/bash за login shell според /etc/passwd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(hint: 'man 5 passwd' за информация какъв е форматът на /etc/passwd)
 * 03-a-5002  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете само имената на хората с второ име по-дълго от 6 (>6) символа според /etc/passwd
 * 03-a-5003  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете имената на хората с второ име по-късо от 8 (<=7) символа според /etc/passwd // !(>7) = ?
 * 03-a-5004  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете целите редове от /etc/passwd за хората от 03-a-5003
 * 03-b-0300  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 * 03-b-3000  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Запаметете във файл в своята home директория резултатът от командата `df -P`.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Напишете команда, която извежда на екрана съдържанието на този файл, без първия ред (хедъра), сортирано по второ поле (numeric).
 * 03-b-3400  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Колко коментара има във файла /etc/services ? Коментарите се маркират със символа #, след който всеки символ на реда се счита за коментар.
 * 03-b-3500  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Колко файлове в /bin са 'shell script'-oве? (Колко файлове в дадена директория са ASCII text?)
 * 03-b-3600  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Направете списък с директориите на вашата файлова система, до които нямате достъп. Понеже файловата система може да е много голяма, търсете до 3 нива на дълбочина.
 * 03-b-4000  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Създайте следната файлова йерархия в home директорията ви:
 dir5/file1
