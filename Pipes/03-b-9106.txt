@@ -1,2 +1,1 @@
 find *.ogg | cut -d'-' -f1 | tr -d ' ' | sort | uniq | xargs -I{} mkdir {}
-
