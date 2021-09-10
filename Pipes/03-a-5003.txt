@@ -1,2 +1,1 @@
 cut -d: -f5 /etc/passwd | awk '{if(length($2)<8) print $0 }'
-
