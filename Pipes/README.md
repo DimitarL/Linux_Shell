@@ -120,7 +120,7 @@ dir5/file3
 * 03-b-8520  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изпишете имената на студентите от /etc/passwd с главни букви.
 * 03-b-8600  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell Script-овете са файлове, които по конвенция имат разширение .sh. Всеки
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell Script-овете са файлове, които по конвенция имат разширение .sh. Всеки
 такъв файл започва с "#!<interpreter>" , където <interpreter> указва на
 операционната система какъв интерпретатор да пусне (пр: "#!/bin/bash",
 "#!/usr/bin/python3 -u").
