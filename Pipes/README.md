@@ -118,7 +118,7 @@ dir5/file3
 * 03-b-8500  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;За всяка група от /etc/group изпишете "Hello, <група>", като ако това е вашата група, напишете "Hello, <група> - I am here!".
 * 03-b-8520  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изпишете имената на студентите от /etc/passwd с главни букви.
 * 03-b-8600  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell Script-овете са файлове, които по конвенция имат разширение .sh. Всеки
 такъв файл започва с "#!<interpreter>" , където <interpreter> указва на
