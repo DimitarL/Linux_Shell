@@ -41,8 +41,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изход:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The deepest nesting is 2 levels
 * 05-b-4300  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Напишете shell script, който по подаден като аргумент файл с map между <nickname> -> <реален username> и nickname, ще ви улесни да изпращате съобщения на хората.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Напишете shell script, който по подаден като аргумент файл с map между <nickname> -> <реален username> и nickname, ще ви улесни да изпращате съобщения на хората.  
+  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пример за файл указател:
 tinko s61966
 minko s881234
