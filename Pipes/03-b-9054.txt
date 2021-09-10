@@ -1,2 +1,1 @@
 cat population.csv | egrep ",1969,[0-9]*$" | sed -r 's/([0-9]),([0-9])/\1~\2/g' | sort -rn -t'~' -k2 | tr '~' ',' | head -n42 | tail -n1
-
