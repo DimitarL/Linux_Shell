@@ -120,12 +120,12 @@ dir5/file3
 * 03-b-8520  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изпишете имената на студентите от /etc/passwd с главни букви.
 * 03-b-8600  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell Script-овете са файлове, които по конвенция имат разширение .sh. Всеки
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell Script-овете са файлове, които по конвенция имат разширение .sh. Всеки
 такъв файл започва с "#!<interpreter>" , където <interpreter> указва на
 операционната система какъв интерпретатор да пусне (пр: "#!/bin/bash",
 "#!/usr/bin/python3 -u").
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Намерете всички .sh файлове в директорията `/usr` и нейните поддиректории, и
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Намерете всички .sh файлове в директорията `/usr` и нейните поддиректории, и
 проверете кой е най-често използваният интерпретатор.
 * 03-b-8700  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Изведете GID-овете на 5-те най-големи групи спрямо броя потребители, за които
