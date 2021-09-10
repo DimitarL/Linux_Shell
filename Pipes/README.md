@@ -74,9 +74,9 @@ dir5/file3
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;52
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете на екрана:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;статистика за броя редове, думи и символи за всеки един файл  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;статистика за броя редове и символи за всички файлове  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;общия брой редове на трите файла
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;статистика за броя редове, думи и символи за всеки един файл  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;статистика за броя редове и символи за всички файлове  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;общия брой редове на трите файла
 * 03-b-4001  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Във file2 (inplace) подменете всички малки букви с главни.
 * 03-b-4002  
