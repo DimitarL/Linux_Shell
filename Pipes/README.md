@@ -116,7 +116,7 @@ Beatles, PinkFloyd, Madness
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Напишете серия от команди, които извеждат детайли за файловете и директориите в текущата директория, които имат същите права за достъп както най-големият файл в /etc директорията.
 * 03-b-9300  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Дадени са ви 2 списъка с email адреси - първият има 12 валидни адреса, а вторията има само невалидни. Филтрирайте всички адреси, така че да останат само валидните. Колко кратък регулярен израз можете да направите за целта?
-Валидни email адреси (12 на брой):  
+   * Валидни email адреси (12 на брой):  
 email@example.com
 firstname.lastname@example.com
 email@subdomain.example.com
@@ -130,7 +130,7 @@ email@example.co.jp
 firstname-lastname@example.com
 unusually.long.long.name@example.com
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Невалидни email адреси:
+   * Невалидни email адреси:
 #@%^%#$@#$@#.com
 @example.com
 myemail
