@@ -128,8 +128,8 @@ email@example.name
 email@example.museum
 email@example.co.jp
 firstname-lastname@example.com
-unusually.long.long.name@example.com  
-  
+unusually.long.long.name@example.com
+
 Невалидни email адреси:
 #@%^%#$@#$@#.com
 @example.com
