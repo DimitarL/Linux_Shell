@@ -1,4 +1,3 @@
 find / -type f -name '*.c' 2> /dev/null | wc -l
 
 find / -type f -name '*.c' 2> /dev/null | xargs -I{} cat {} 2> /dev/null | wc -l
-
