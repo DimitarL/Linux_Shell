@@ -1,3 +1,1 @@
-#!/bin/bash
-
 ps -G root -o rss | awk '{sum += $1} END {print sum/NR}'
