@@ -130,7 +130,7 @@ email@example.co.jp
 firstname-lastname@example.com
 unusually.long.long.name@example.com
 
-Невалидни email адреси:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Невалидни email адреси:
 #@%^%#$@#$@#.com
 @example.com
 myemail
