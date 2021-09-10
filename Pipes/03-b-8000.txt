@@ -1,2 +1,1 @@
 cat /etc/passwd | grep "SI" | cut -d ':' -f1 | cut -c 2-
-
