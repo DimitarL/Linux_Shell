@@ -10,6 +10,6 @@ comm -1 -2 \
         <(who | awk '{print $1}' | sort | uniq) \
         <(cat /etc/passwd | cut -d':' -f1 | sort | uniq) )
 
-# Moje da se izpolzva:
+# We can also use:
 # cat with_live_processes | xargs -I @ grep "^@$" not_logged_in
 
