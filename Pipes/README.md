@@ -46,41 +46,82 @@
 * 03-b-3600  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 * 03-b-4000  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Създайте следната файлова йерархия в home директорията ви:
+dir5/file1
+dir5/file2
+dir5/file3
+
+Посредством vi въведете следното съдържание:
+file1:
+1
+2
+3
+
+file2:
+s
+a
+d
+f
+
+file3:
+3
+2
+1
+45
+42
+14
+1
+52
+
+Изведете на екрана:
+	* статистика за броя редове, думи и символи за всеки един файл
+	* статистика за броя редове и символи за всички файлове
+	* общия брой редове на трите файла
 * 03-b-4001  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Във file2 (inplace) подменете всички малки букви с главни.
 * 03-b-4002  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Във file3 (inplace) изтрийте всички "1"-ци.
 * 03-b-4003  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изведете статистика за най-често срещаните символи в трите файла.
 * 03-b-4004  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Направете нов файл с име по ваш избор, чието съдържание е конкатенирани съдържанията на file{1,2,3}.
 * 03-b-4005  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Прочетете текстов файл file1 и направете всички главни букви малки като запишете резултата във file2.
 * 03-b-5200  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Намерете броя на символите, различни от буквата 'а' във файла /etc/passwd
 * 03-b-5300  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Намерете броя на уникалните символи, използвани в имената на потребителите от /etc/passwd.
 * 03-b-5400  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отпечатайте всички редове на файла /etc/passwd, които не съдържат символния низ 'ов'.
 * 03-b-6100  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отпечатайте последната цифра на UID на всички редове между 28-ми и 46-ред в /etc/passwd.
 * 03-b-6700  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отпечатайте правата (permissions) и имената на всички файлове, до които имате read достъп, намиращи се в директорията /tmp. (hint: 'man find', вижте -readable)
 * 03-b-6900  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Намерете имената на 10-те файла във вашата home директория, чието съдържание е редактирано най-скоро. На първо място трябва да бъде най-скоро редактираният файл. Намерете 10-те най-скоро достъпени файлове. (hint: Unix time)
 * 03-b-7000  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Да приемем, че файловете, които съдържат C код, завършват на `.c` или `.h`.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Колко на брой са те в директорията `/usr/include`?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Колко реда C код има в тези файлове?
 * 03-b-7500  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Даден ви е ASCII текстов файл - /etc/services. Отпечатайте хистограма на 10-те най-често срещани думи.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Дума наричаме непразна последователност от букви. Не правим разлика между главни и малки букви.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Хистограма наричаме поредица от редове, всеки от които има вида:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<брой срещания> <какво се среща толкова пъти>
 * 03-b-8000  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Вземете факултетните номера на студентите (описани във файла /srv/os/mypasswd.txt) от СИ и ги запишете във файл si.txt сортирани. Студент е част от СИ, ако home директорията на този потребител (според /srv/os/mypasswd.txt) се намира в /home/SI директорията.
 * 03-b-8500  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;За всяка група от /etc/group изпишете "Hello, <група>", като ако това е вашата група, напишете "Hello, <група> - I am here!".
 * 03-b-8520  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 * 03-b-8600  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell Script-овете са файлове, които по конвенция имат разширение .sh. Всеки
+такъв файл започва с "#!<interpreter>" , където <interpreter> указва на
+операционната система какъв интерпретатор да пусне (пр: "#!/bin/bash",
+"#!/usr/bin/python3 -u").
+
+Намерете всички .sh файлове в директорията `/usr` и нейните поддиректории, и
+проверете кой е най-често използваният интерпретатор.
 * 03-b-8700  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Изведете GID-овете на 5-те най-големи групи спрямо броя потребители, за които
 съответната група е основна (primary).
