@@ -1,2 +1,1 @@
 find /etc -mindepth 2 -maxdepth 2 -type f -perm /u=x,g=x,o=x | wc -l
-
