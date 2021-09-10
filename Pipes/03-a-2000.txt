@@ -3,7 +3,7 @@
 	head -n 12 /etc/passwd
 - първите 26 символа
 	head -c 26 /etc/passwd
-   -- No head -c e za bnaitove. Ako trqbva da sme maks. korektni: 
+   -- No head -c е за байтове. Ако трябва да сме максимално коректни:
 	cut -c -26 /etc/passwd | head -n1
 - всички редове, освен последните 4
 	head -n -4 /etc/passwd
@@ -11,9 +11,9 @@
 	tail -n 17 /etc/passwd
 - 151-я ред (или друг произволен, ако нямате достатъчно редове)
 	head -n 151 /etc/passwd | tail -n 1
-   -- Proverka dali e pravilniqt red:
+   -- Проверка дали е правилният ред
 	cat -n /etc/passwd | head -n 151 | tail -n 1
 - последните 4 символа от 13-ти ред
 	head -n 13 /etc/passwd | tail -n 1 | rev | cut -c -4 | rev
 
-Variant 2: cat /etc/passwd | ....
+Вариант 2: cat /etc/passwd | ....
