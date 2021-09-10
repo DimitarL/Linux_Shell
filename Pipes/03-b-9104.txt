@@ -1,2 +1,1 @@
 find *.ogg | cut -d'-' -f2 | cut -d' ' -f2- | cut -d'(' -f2 | cut -d')' -f1 | sort -t',' -n -k 2 | uniq
-
