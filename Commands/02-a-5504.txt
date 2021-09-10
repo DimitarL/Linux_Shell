@@ -1,6 +1,5 @@
 find /tmp -type f ! -perm /u=x,g=x,o=x -perm /g=w,o=w -group students 2>/dev/null | rev | cut -d/ -f1 | rev
 
 
-// Проверка има ли таквиа файлове
+# Проверка има ли таквиа файлове
 find /tmp -type f -group students 2>/dev/null | xargs -I{} ls -lh {}
-
